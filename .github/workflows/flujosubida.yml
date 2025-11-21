@@ -17,8 +17,8 @@ jobs:
   # This workflow contains a single job called "build"
   build:
     env:
-       nombres: Victor Daniel
-       apellidos: Davila Sanchez
+       nombres: "Victor Daniel"
+       apellidos: "Davila Sanchez"
        edad: 38
 
     # The type of runner that the job will run on
@@ -32,9 +32,9 @@ jobs:
       # Crear un 1er step:
       - name: presentación
         run: |
-          echo "Mis nombres son: nombres"
-          echo "Mis apellidos son: apellidos"
-          echo "Mi edad es: edad"
+          echo "Mis nombres son: $nombres"
+          echo "Mis apellidos son: ${{env.apellidos}}"
+          echo "Mi edad es: ${{env.edad}}"
 
       # crear un 2do step:
       - name: datos generales
