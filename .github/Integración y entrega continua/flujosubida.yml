@@ -31,7 +31,10 @@ jobs:
 
       # Crear un 1er step:
       - name: presentación
-        run: echo Victor Daniel, Davila Sanchez 38 años.
+        run: |
+          echo "Mis nombres son: nombres"
+          echo "Mis apellidos son: apellidos"
+          echo "Mi edad es: edad"
 
       # crear un 2do step:
       - name: datos generales
