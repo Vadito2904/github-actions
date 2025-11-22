@@ -52,4 +52,4 @@ jobs:
       # crear un 4to step:
       - name: variables abiertas
         run: |
-          echo imprimir las variables abiertas: ${{ vars.VERSION_DE_MI_PROYECTO}}"
+          echo imprimir las variables abiertas: ${{ vars.VERSION_DE_MI_PROYECTO}}
