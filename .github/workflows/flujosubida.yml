@@ -21,7 +21,7 @@ jobs:
        apellidos: "Davila Sanchez"
        edad: 38
 
-       user: ${{secrets.USER}}
+       user: "user"
        password: ${{secrets.PASSWORD}}
 
     # The type of runner that the job will run on
