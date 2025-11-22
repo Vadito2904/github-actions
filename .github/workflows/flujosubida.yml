@@ -52,5 +52,4 @@ jobs:
       # crear un 4to step:
       - name: variables abiertas
         run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+          echo imprimir las variables abiertas: ${{ vars.VERSION_DE_MI_PROYECTO}}"
